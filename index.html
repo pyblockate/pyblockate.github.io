@@ -2,51 +2,67 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>pyblockate.github.io</title>
+    <title>pyblockate</title>
     <style>
         body {
             background-color: #222;
             color: #fff;
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/pyblockate/pybot/assets/138396240/9479dbf0-ec06-45e2-b7b1-9662e9e32321');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            background-color: rgba(173, 173, 173, 0);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0);
+            padding: 40px;
+            text-align: center;
+            max-width: 500px;
+            width: 80%;
         }
 
         h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
             font-size: 24px;
             margin-bottom: 10px;
         }
 
-        h2 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        h3 {
+        p {
             font-size: 18px;
-            margin-bottom: 10px;
+            line-height: 1.5;
+            margin-bottom: 20px;
         }
 
         a {
-            color: #fff;
+            color: #007bff;
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
         }
-
-        .repository-link {
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
     </style>
+    <link rel="icon" href="pyfavicon.png" type="image/x-icon">
 </head>
 <body>
-    <h1>pyblockate.github.io</h1>
-    <p>pyblockate is a website created by abdollhwin to showcase his blockate python creations, such as:</p>
-    <h2>PyBot</h2>
-    <h3>a python blockate bot that responds to pycommands</h3>
-    <p class="repository-link"><a href="https://github.com/pyblockate/pybot">https://github.com/pyblockate/pybot</a></p>
+    <div class="container">
+        <h1>pyblockate</h1>
+        <p>A showcase of blockate Python creations</p>
+        <h2>PyBot</h2>
+        <p>A Python blockate bot that responds to pycommands</p>
+        <p class="repository-link"><a href="https://github.com/pyblockate/pybot">View on GitHub</a></p>
+    </div>
 </body>
 </html>
